@@ -1,0 +1,21 @@
+package com.algaworks.algalog.controllers;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(value = "/clientes")
+public class clienteController {
+	public list<Cliente> listar(){
+	
+	}
+	
+//	@GetMapping
+//	public String listar() {
+//		return "Testando";
+//	}
+//	@GetMapping("/test")
+//	public String testar() {
+//		return "Testando caminho teste";
+//	}
+}
