@@ -16,7 +16,7 @@ public class clienteController {
 	public List<Cliente> listar(){
 		var cliente1 = new Cliente();
 		cliente1.setId(1L);
-		cliente1.setName("Fabiano");
+		cliente1.setName("Fabiano Alexandre");
 		cliente1.setPhone("5845-5698");
 		cliente1.setEmail("fabiano@gamail.com");
 		var cliente2 = new Cliente();
