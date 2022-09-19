@@ -1,0 +1,9 @@
+spring.datasource.url=jdbc:mysql://localhost/algalog?createDatabaseIfNotExist=true&serverTimezone=UTC
+spring.datasource.username=root
+<<<<<<< HEAD
+spring.datasource.password=Alun0F@tec
+
+spring.jpa.show-sql=true
+=======
+spring.datasource.password=XXXXXXX
+>>>>>>> 03d9707488cf7d17e3648fce97fa2d446e7e28db
