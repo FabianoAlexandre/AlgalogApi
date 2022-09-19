@@ -20,5 +20,12 @@ public class clienteController {
 	public List<Cliente> listar(){
 		return clienteRepository.findAll();
 	}
-	
+	@GetMapping("/clientes/nome")
+	public List<Cliente> lista(){
+		return clienteRepository.findByNome("Fabiano");
+	}
+	@GetMapping("/clientes/containing")
+	public List<Cliente> list(){
+		return clienteRepository.findByNomeContaining("Ru");
+	}
 }
