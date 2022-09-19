@@ -2,17 +2,18 @@ package com.algaworks.algalog.controllers;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.algaworks.algalog.domain.model.Cliente;
 import com.algaworks.algalog.domain.repository.ClienteRepository;
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 @RestController
 public class clienteController {
 	
-	@Autowired
 	private ClienteRepository clienteRepository;
 
 	@GetMapping("/clientes")
